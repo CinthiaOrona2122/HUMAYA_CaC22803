@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    font-family: 'Lato', sans-serif;
+}
+
+.separadores {
+    background: linear-gradient(30deg,
+            rgba(84, 86, 87, 1) 30%,
+            rgba(41, 41, 41, 1) 62%);
+    text-align: center;
+    align-items: center;
+    color: #D6AB87;
+    font-size: 2rem;
+}
+
+.alfajorMaizena {
+    background-color: #D6AB87 !important;
+}
+
+.alfajorMaizena .card-text {
+    color: white;
+    font-size: 1.1rem;
+}
+
+.texto-cards-maizena {
+    padding: 20px;
+    margin: 20px;
+}
+
+.texto-cards-maizena>h5 {
+    color: #7a4520e8;
+    font-weight: bold;
+}
+
+p.texto-cards-maizena {
+    color: #837158;
+    font-size: .9rem;
+}
+
+.bannerContacto>div>img {
+    width: 100vw;
+}
+
+.imgFormulario>img {
+    width: 50vw;
+}
+
+
+.fondoHeader {
+    background-image: url("./IMAGENES/Central/imagenCentral.png");
+    background-size: cover;
+    background-repeat: unset;
+    padding: 3rem 0;
+}
+
+#textoBienvenida>div>p {
+    width: 18rem;
+    font-size: 1rem;
+}
+
+button {
+    border: solid #D8A85D;
+}
+
+.card {
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0px;
+    border: none;
+}
+
+.texto-cards {
+    text-align: left;
+    margin: 20px;
+    padding: 20px;
+}
+
+.texto-cards>h5 {
+    color: #D8A85D;
+    font-weight: bold;
+}
+
+.texto-cards>p {
+    font-size: 1.1rem;
+}
+
+p.texto-parrafo-cards {
+    font-size: .9rem;
+    color: #D8A85D;
+}
+
+
+/*Media query celulares a tablet*/
+@media screen and (min-width: 480px) and (max-width: 940px) {
+    #textoBienvenida>div {
+        width: 70vw;
+        width: 16rem;
+        font-size: 1rem;
+    }
+}
+
+/*Media query tablet a desktop*/
+@media screen and (min-width: 941px) and (max-width: 1300px) {
+    .fondoHeader {
+        padding: 5rem 0;
+    }
+
+    #fondoBienvenida {
+        height: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+    }
+
+    #textoBienvenida>div {
+        color: aliceblue;
+    }
+}
+
+/*Media query desktop y TV*/
+@media screen and (min-width: 1301px) {
+    .fondoHeader {
+        padding: 10rem 0;
+    }
+
+    #fondoBienvenida {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+    }
+
+}
