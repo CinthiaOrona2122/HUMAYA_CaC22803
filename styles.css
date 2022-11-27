@@ -49,6 +49,29 @@ p.texto-cards-maizena {
     width: 100vw;
 }
 
+
+.bannerRecetas {
+    background-color: #bc9677 !important;
+    border: none;
+}
+
+.bannerRecetas>div>p {
+    font-size: .7rem;
+}
+
+.bordeBoton {
+    border: 2px solid #6e5944;
+    display: flex;
+}
+a.bordeBoton{
+    color: inherit;
+}
+
+.color-texto {
+    color: #493a2b;
+    text-decoration: none;
+}
+
 .imgFormulario>img {
     width: 50vw;
 }
@@ -97,6 +120,9 @@ p.texto-parrafo-cards {
     color: #D8A85D;
 }
 
+.page-footer{
+    background-color: #837158;
+}
 
 /*Media query celulares a tablet*/
 @media screen and (min-width: 480px) and (max-width: 940px) {
@@ -105,6 +131,11 @@ p.texto-parrafo-cards {
         width: 16rem;
         font-size: 1rem;
     }
+
+        .bannerRecetas>div>p {
+            font-size: 1.1rem;
+        }
+
 }
 
 /*Media query tablet a desktop*/
